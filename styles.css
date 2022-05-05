@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+nav{
+    padding-bottom: 2rem;
+}
+
+img{
+    margin-top: 5%;
+    height: 200px;
+    width: 200px;
+}
+
+.btns{
+    color: white !important;
+    text-decoration: none;
+    height: 40px;
+    width: 200px;
+    background-color: #1ed760 !important;
+}
+
+.btns:hover{
+    color: white !important;
+    text-decoration: none;
+    height: 150px;
+    width: 200px;
+    background-color: #1ed760 !important;
+    transform: scale(1.1);
+}
+
+button{
+    padding-top: 50%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    img{
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+    .disNone {
+        display: none;
+    }
+}
